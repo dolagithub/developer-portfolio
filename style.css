@@ -7,6 +7,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 35px;
+}
+
 .orange {
     color: orange;
 }
@@ -39,4 +43,37 @@ h1 {
 
 .dream-big {
     margin-top: 100px;
+}
+
+.experience-area {
+    background-image: url(d.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    margin-bottom: 10%;
+    box-shadow: 10px 10px 40px gray;
+
+
+}
+
+#web-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#full-stak {
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
