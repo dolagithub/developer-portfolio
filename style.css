@@ -11,7 +11,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
 }
 
@@ -35,4 +35,8 @@ section {
     color: white;
     font-weight: 500;
 
+}
+
+.dream-big {
+    margin-top: 100px;
 }
